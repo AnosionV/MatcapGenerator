@@ -146,6 +146,9 @@ namespace Anosion.MatcapGenerator
             var list = new ReorderableList(_holderObject, decals, true, true, true, true)
             {
                 drawHeaderCallback = rect => EditorGUI.LabelField(rect, MatcapText.DecalSectionHeader),
+
+                // 既定の「List is Empty」は Gemini を通していない英語の文言なので、空のときは何も描かない。
+                drawNoneElementCallback = _ => { },
                 elementHeightCallback = _ => DecalLineCount * (lineHeight + spacing) + spacing,
             };
 
