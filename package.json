@@ -2,7 +2,7 @@
   "name": "jp.anosion.matcap-generator",
   "version": "0.1.0",
   "displayName": "Matcap Generator",
-  "description": "Create and live-edit Matcap textures directly in the Unity Inspector without external image editing software, ready to assign directly to material texture slots or export as PNG.",
+  "description": "Create and live-edit Matcap textures directly in the Unity Inspector, ready to assign directly to material texture slots or export as PNG.",
   "unity": "2022.3",
   "author": {
     "name": "Anosion"
